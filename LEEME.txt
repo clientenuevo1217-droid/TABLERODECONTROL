@@ -1,0 +1,23 @@
+MI TABLERO VIVO - app instalable (PC y celular)
+
+IMPORTANTE: para poder instalarla, la carpeta debe abrirse desde una direccion web
+(https:// o http://localhost). Abrir index.html con doble clic NO permite instalar.
+
+OPCION A - Gratis en internet (sirve para PC y celular, la mas facil)
+ 1. Entra a https://app.netlify.com/drop (o usa GitHub Pages / Cloudflare Pages).
+ 2. Arrastra esta carpeta completa (sin el .zip) y te dara un enlace https.
+ 3. Abre ese enlace en el PC y en el celular, y pulsa "Instalar app".
+
+OPCION B - Solo en este PC (sin internet)
+ 1. Abre una terminal dentro de esta carpeta y ejecuta:  python -m http.server 8080
+ 2. En Chrome o Edge abre http://localhost:8080 y pulsa "Instalar app".
+
+EN EL CELULAR
+ - Android (Chrome): menu ⋮ > Instalar aplicacion.
+ - iPhone (Safari): Compartir > Anadir a pantalla de inicio. Abre la app desde ese icono
+   y entonces pulsa "Activar avisos".
+
+AVISOS EN PANTALLA
+ - Pulsa "Activar avisos" y acepta el permiso.
+ - La app debe estar abierta (puede estar minimizada) para sonar a la hora exacta.
+ - "Pantalla encendida: si" evita que el celular/PC se apague mientras esperas alarmas.
